@@ -1,0 +1,18 @@
+@font-face {
+    font-family: xbox-font;
+    src: url(./font/xboxfont.ttf);
+}
+
+.plataformDiv {
+    margin-top: -70px;
+    background-color: #0000008a;
+    width: 100%;
+    height: 130%;
+}
+
+.title {
+    font-family: xbox-font;
+    font-size: 100px;
+    padding-top: 500px;
+}
+

@@ -1,0 +1,52 @@
+.footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    box-shadow: #000000fe 5px 3px 8px;
+    padding: 30px;
+}
+
+.footer h1 {
+    padding-top: 20px;
+}
+
+.upDescription {
+    text-align: center;
+    padding-right: 2px;
+}
+
+.upDescription > span > br{
+    display: none;
+}
+
+.downDescription {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-inline: 50px;
+    font-size: 17px;
+}
+
+.downDescription i {
+    margin-inline: 8px;
+}
+
+a {
+    color: white;
+}
+
+@media (width <= 600px){
+    .upDescription > span > br{
+        display: block;
+    }
+    .downDescription {
+        flex-direction: column;
+    }
+    .downDescription span{
+        margin-block: 5px;
+        min-width: 270px;
+    }
+}

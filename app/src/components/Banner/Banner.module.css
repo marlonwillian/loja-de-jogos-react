@@ -1,0 +1,135 @@
+.banner {
+    width: 100%;
+    background-size: cover;
+    color: white;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.bannerHome {
+    height: 100vh;
+    background-position: center;
+    background-color: black;
+}
+
+.bannerCarrossel {
+    display: flex;
+    height: 75vh;
+    background-position: center;
+    background-color: black;
+    border-radius: 5px;
+    padding-top: 0px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.bannerGamePage {
+    background-position: left;
+    margin-top: -100px;
+}
+
+.bannerPlaystation {
+    height: 105vh;
+}
+
+.bannerNintendo {
+    height: 105vh;
+}
+
+.bannerXbox {
+    height: 105vh;
+}
+
+@media (width <= 1130px) {
+    .bannerXbox {
+        background-position: center;
+    }
+}
+
+@media (width <= 1114px) {
+    .bannerCarrossel {
+        height: 60vh;
+    }
+}
+
+@media (width <= 1030px) {
+    .bannerNintendo {
+        height: 80vh;
+    }
+}
+
+@media (width <= 884px) {
+    .bannerCarrossel {
+        height: 50vh;
+    }
+}
+
+@media (width <= 825px) {
+    .bannerGamePage {
+        background-position: center;
+    }
+}
+
+@media (width <= 800px) {
+    .bannerNintendo {
+        height: 56vh;
+    }
+}
+
+@media (width <= 500px) {
+    .bannerHome {
+        height: 80vh;
+    }
+}
+
+@media (width <= 1000px) and (height <= 412px) {
+    .bannerCarrossel {
+        height: 80vh;
+    }
+}
+
+@media (width <= 770px) {
+    .bannerCarrossel {
+        height: 40vh;
+    }
+}
+
+ @media (width <= 647px) {
+    .bannerCarrossel {
+        height: 35vh;
+    }
+}
+
+@media (width <= 550px) {
+    .bannerCarrossel {
+        height: 25vh;
+    }
+
+    .bannerPlaystation {
+        background-position: center;
+        height: 80vh;
+    }
+
+    .bannerNintendo {
+        height: 36vh;
+    }
+}
+
+@media (width <= 550px) and (height > 650px) {
+    .bannerNintendo {
+        height: 30vh;
+    }
+}
+
+@media (width <= 550px) and (height <= 650px) {
+    .bannerNintendo {
+        height: 36vh;
+    }
+} 
+
+/*
+@media screen and (max-width: 450px) {
+    .bannerCarrossel {
+        height: 20vh;
+    }
+} */

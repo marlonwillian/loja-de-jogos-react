@@ -1,0 +1,289 @@
+.giftCard {
+  padding-top: 100px;
+  padding-inline: 100px;
+  background: linear-gradient(0deg, #000000f4 25%, #00000069 50%, #08264f 85%);
+  height: 160vh;
+}
+
+.giftCard h1 {
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-shadow: 0 -1px 2px #000000, 0 1px 2px #000000, -1px 0 2px #000000, 1px 0 2px #000000;
+}
+
+.giftCard h3 {
+  margin-bottom: 10px;
+  font-weight: lighter;
+  text-shadow: 0 -1px 2px #000000, 0 1px 2px #000000, -1px 0 2px #000000, 1px 0 2px #000000;
+}
+
+.line {
+  margin: 0px;
+  margin-bottom: 100px;
+  border-color: white;
+}
+
+.psgifts {
+  width: 450px;
+}
+
+.pspersonagem1 {
+  position: absolute;
+  width: 200px;
+  margin-top: 185px;
+  transform: translateX(-70px);
+}
+
+.pspersonagem2 {
+  position: absolute;
+  width: 230px;
+  margin-top: -26px;
+  transform: translateX(-190px);
+}
+
+.nsgifts {
+  width: 450px;
+}
+
+.nspersonagem1 {
+  position: absolute;
+  width: 200px;
+  margin-top: 230px;
+  transform: translateX(-70px);
+}
+
+.nspersonagem2 {
+  position: absolute;
+  width: 230px;
+  margin-top: 230px;
+  transform: translateX(-150px);
+}
+
+.xbgifts {
+  width: 450px;
+  margin-top: 30px;
+}
+
+.xbpersonagem1 {
+  position: absolute;
+  width: 150px;
+  margin-top: 110px;
+  transform: translateX(-70px);
+}
+
+.xbpersonagem2 {
+  position: absolute;
+  width: 230px;
+  margin-top: -26px;
+  transform: translateX(-190px);
+}
+
+.gfSection {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+}
+
+.gfSection1 {
+  height: 380px;
+}
+
+.gfSection2 {
+  height: 290px;
+}
+
+.price {
+  width: 200px;
+  max-width: 330px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px;
+  margin-inline: 25px;
+  margin-top: 40px;
+  flex: calc(30%);
+  border: 2px solid #afd7f7;
+  border-radius: 8px;
+  transition: 0.7s;
+}
+
+.price:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (width <= 1369px) {
+  .gfSection1 {
+    height: 485px;
+  }
+  
+  .gfSection2 {
+    height: 450px
+  }
+  
+  .btn {
+    margin-top: 430px 
+  }
+}
+
+@media (width <= 650px) {
+  .giftCard {
+    padding-inline: 0px;
+  }
+
+  .pspersonagem2 {
+    margin-top: -40px;
+    transform: translateX(-234px) rotate(311deg);
+  }
+  
+  .nspersonagem1 {
+    margin-top: 240px;
+   	transform: translateX(-40px);
+  }
+
+  .nspersonagem2 {
+    margin-top: 240px;
+   	transform: translateX(-165px);
+  }
+
+  .xbpersonagem1 {
+    margin-top: 107px;
+    transform: translateX(-49px);
+  }
+
+  .xbpersonagem2 {
+    margin-top: -54px;
+    transform: translateX(-181px);
+  }
+
+  .price {
+    font-size: 20px;
+  }
+}
+
+@media (width <= 600px) {
+  .nspersonagem1 {
+    width: 170px;
+    margin-top: 267px;
+    transform: translateX(0px);
+  }
+
+  .nspersonagem2 {
+    width: 198px;
+    margin-top: 268px;
+    transform: translateX(-190px);
+  }
+} 
+
+@media (width <= 550px) {
+  .psgifts {
+    width: 420px;
+  }
+
+  .giftCard {
+    padding-inline: 0px;
+  }
+
+  .pspersonagem1 {
+    margin-top: 129px;
+	  width: 150px;
+	  transform: translateX(-47px);
+  }
+  .pspersonagem2 {
+    margin-top: -23px;
+	  width: 161px;
+	  transform: translateX(-170px) rotate(311deg);
+  }
+
+  .xbgifts {
+    width: 440px;
+  }
+
+  .xbpersonagem1 {
+    width: 111px;
+    transform: translateX(14px) translateY(75px);
+  }
+
+  .xbpersonagem2 {
+    margin-top: -18px;
+    width: 180px;
+    transform: translateX(-210px);
+  }
+
+  .price {
+    font-size: 21px;
+  }
+
+  .gfSection1 {
+    height: 505px;
+  }
+}
+
+@media (width <= 520px) {
+  .psgifts {
+    width: 310px;
+  }
+
+  .giftCard {
+    padding-inline: 0px;
+  }
+
+  .pspersonagem1 {
+    margin-top: 129px;
+	  width: 150px;
+	  transform: translateX(-47px);
+  }
+  .pspersonagem2 {
+    margin-top: -23px;
+	  width: 161px;
+	  transform: translateX(-170px) rotate(311deg);
+  }
+}
+
+@media (width <= 500px) {
+  .nsgifts {
+    width: 354px;
+  }
+
+  .nspersonagem1 {
+    width: 145px;
+    margin-top: 193px;
+    transform: translateX(18px);
+  }
+
+  .nspersonagem2 {
+    width: 151px;
+    margin-top: 217px;
+    transform: translateX(-155px);
+  }
+}
+
+@media (width <= 445px) {
+  .xbgifts {
+    width: 350px;
+  }
+
+  .xbpersonagem1 {
+    width: 100px;
+    transform: translateX(-5px) translateY(30px);
+  }
+
+  .xbpersonagem2 {
+    margin-top: -18px;
+    width: 150px;
+    transform: translateX(-157px);
+  }
+}
+
+@media (width <= 370px) {
+  .price {
+    font-size: 25px;
+  }
+}

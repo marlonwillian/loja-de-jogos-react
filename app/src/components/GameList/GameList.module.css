@@ -1,0 +1,128 @@
+.searchCard {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    background-color: #100f0f;
+    border-top: 0.5px solid #ffffff5a;
+    border-left: 0.5px solid #ffffff5a;
+    border-right: 0.5px solid #ffffff5a;
+    transform: translate(20%);
+    padding: 3px;
+    margin-top: 10px;
+    z-index: 10;
+    overflow-y: auto;
+    scrollbar-width: 15px;
+    scrollbar-color: #888 #00000000;
+}
+
+.cartCard {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    background-color: #100f0f;
+    border-top: 0.5px solid #ffffff5a;
+    border-left: 0.5px solid #ffffff5a;
+    border-right: 0.5px solid #ffffff5a;
+    transform: translate(-50%);
+    padding: 3px;
+    margin-top: 9px;
+    z-index: 10;
+    overflow-y: auto;
+    scrollbar-width: 15px;
+    scrollbar-color: #888 #00000000;
+}
+
+.summary {
+    position: absolute;
+    margin-top: 309px;
+    width: 400px;
+    border-left: 0.5px solid #ffffff5a;
+    border-right: 0.5px solid #ffffff5a;
+    border-bottom: 0.5px solid #ffffff5a;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #100f0f;
+    z-index: 10;
+}
+
+.line {
+    margin-block: 15px;
+    margin-inline: 30px;
+    background-color: white;
+    height: 1px;
+}
+
+.summaryItens {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+}
+
+.productQt {
+    margin-left: 50px;
+}
+
+.total {
+    margin-right: 50px;
+}
+
+.button {
+    width: 65%;
+    margin-left: 70px;
+    margin-bottom: 15px;
+    border-radius: 0px;
+    background-color: black;
+    border: 0.5px solid #ffffff5a;
+    padding-block: 10px;
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 3px white;
+}
+
+@media (width <= 1114px) {
+    .cartCard {
+        transform: translate(-60%);
+    }
+
+    .summary {
+        transform: translate(-60%);
+    }
+}
+
+@media (width <= 878px) {
+    .cartCard {
+        transform: translate(-70%);
+    }
+
+    .summary {
+        transform: translate(-70%);
+    }
+}
+
+@media (width <= 700px) {
+    .searchCard {
+        transform: translate(-10%);
+    }
+}
+
+@media (width <= 624px) {
+    .cartCard {
+        transform: translate(-85%);
+    }
+
+    .summary {
+        transform: translate(-85%);
+    }
+}
+
+@media (width <= 500px) {
+    .searchCard {
+        transform: translate(-22%);
+        width: 108%;
+        height: 100vh;
+    }
+}

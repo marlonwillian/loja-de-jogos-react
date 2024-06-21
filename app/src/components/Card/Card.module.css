@@ -1,0 +1,60 @@
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    height: auto;
+    min-height: 364.5px;
+    margin-inline: 10px;
+    border-radius: 8px;
+    background-color: #100f0f;
+    border-top: 1px solid #ffffff6e;
+    border-bottom: 1px solid #ffffff6e;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card p {
+    margin-bottom: none;
+}
+
+.cover {
+    width: 100%;
+    height: 145px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0px 5px 6px black;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.5s;
+}
+
+.cover:hover {
+    border-bottom: 1px solid #ffffff6e;
+}
+
+.title {
+    color: white;
+    max-width: 300px;
+    height: 25px;
+    padding-left: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.div_plataforms {
+    align-items: self-end;
+    width: 100%;
+    padding: 8px;
+}
+
+.link {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+}

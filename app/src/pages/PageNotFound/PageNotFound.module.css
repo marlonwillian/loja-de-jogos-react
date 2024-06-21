@@ -1,0 +1,38 @@
+.content {
+  height: 100vh;
+  width: 100%;
+  margin-top: -70px;
+  background-color: #00000070;
+}
+
+.lostText {
+  padding-top: 150px;
+  text-align: center;
+  text-shadow: 0 -1px 2px #000000, 0 1px 2px #000000, -1px 0 2px #000000, 1px 0 2px #000000;
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 30px;
+  padding-inline: 30px;
+}
+
+.description {
+  font-weight: 300;
+  margin-bottom: 50px;
+  padding-inline: 30px;
+}
+
+.button {
+  border: none;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.5s ease;
+  margin-bottom: 250px;
+}
+
+.button:hover {
+  background-color: #ffffffb9;
+}

@@ -1,0 +1,17 @@
+.price {
+  width: 200px;
+  max-width: 330px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px;
+  margin-inline: 25px;
+  margin-top: 40px;
+  flex: calc(30%);
+  border: 2px solid #afd7f7;
+  border-radius: 8px;
+  transition: 0.7s;
+}
+
+.price:hover {
+  background-color: #025ca5c2;
+}
